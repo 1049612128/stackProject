@@ -1,4 +1,4 @@
-import fetch from 'common/js/fetch'
+import fetch from 'common/fetch'
 
 /**
  * 登陆接口

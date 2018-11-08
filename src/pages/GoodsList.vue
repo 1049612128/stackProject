@@ -64,7 +64,7 @@
                     v-infinite-scroll="loadMore"
                     infinite-scroll-disabled="busy"
                     infinite-scroll-distance="20">
-                  <img src="./../assets/loading-spinning-bubbles.svg" v-show="loading">
+                  <img src="./../assets/img/loading-spinning-bubbles.svg" v-show="loading">
                 </div>
               </div>
             </div>

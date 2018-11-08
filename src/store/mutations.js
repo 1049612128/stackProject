@@ -9,3 +9,4 @@ const matutaions = {
     state.cartCount = cartCount
   }
 }
+export default matutaions
