@@ -132,7 +132,7 @@ export default {
         setTimeout(() => {
           this.loading = false
         }, 3000)
-        if (res.status == '200') {
+        if (res.status === '200') {
           if (flag) {
             this.goodsList = this.goodsList.concat(res.result.list)
             if (res.result.count < 4) {
@@ -169,7 +169,7 @@ export default {
     onAddCart (productId) {
       addCart({ productId: productId }).then(response => {
         var res = response.data
-        if (res.status == 200) {
+        if (res.status === 200) {
           this.mdShowCart = true
         } else {
           this.mdShow = true

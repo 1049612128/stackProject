@@ -76,7 +76,7 @@
 
 <script>
 import '../assets/css/login.css'
-import { mapState, mapMutations, mapGetters } from 'vuex'
+import { mapGetters } from 'vuex'
 // import { login, checkLogin, logout, getCartCount } from 'api/apiInterface'
 export default {
   data () {
